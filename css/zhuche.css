@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color#178CF9: ;
+}
+
+body {
+	background: #f4f8fa;
+
+}
+
+.banner-big {
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #EDF1;
+	box-shadow: 0 1px 14px 0 rgb(102 118 153 / 16%);
+	background: #FFFFFF;
+	padding: 0 30px;
+}
+
+button {
+	width: 106px;
+	height: 40px;
+	color: #178CF9;
+	border: 1px solid #178CF9;
+	border-radius: 8px;
+}
+
+.nav-center {
+	background: #f4f8fa;
+	padding: 20px 120px;
+	height: 100%;
+
+}
+
+.nav-center-in {
+	padding: 30px 0;
+	background-color: #fff;
+	height: 100%;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 1.875rem;
+}
+
+form {
+	width: 450px;
+	margin: 0 auto;
+}
+
+form p {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.625rem;
+	align-items: center;
+}
+
+form p input {
+	flex: 1;
+	height: 2.5rem;
+	box-sizing: border-box;
+	padding: 4px 11px;
+	outline: none;
+	transition: all .5s;
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;
+}
+
+form p input:hover {
+	border-color: #40a9ff;
+}
+
+form p input:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+	border-color: #40a9ff;
+}
+
+form p:last-child {
+	justify-content: flex-start;
+}
+
+form p:last-child span {
+	color: #40a9ff;
+}
+
+label {
+	width: 75px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+label span {
+	vertical-align: middle;
+	color: red;
+}
+
+form p:nth-child(5) label {
+	line-height: 40px;
+}
+
+button {
+	margin-left: 0.625rem;
+}
+
+form p {
+	margin-bottom: 30px;
+}
+
+.bh {
+	flex: 1;
+	display: flex;
+}
+
+.input-s1,
+.input-s2 {
+	width: 50%;
+}
+
+[type="submit"] {
+	background-color: #40a9ff;
+}
