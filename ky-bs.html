@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+
+			body,
+			html {
+				width: 100%;
+				height: 100%;
+			}
+
+			body {
+				min-width: 1500px;
+				background: #eff1f4;
+			}
+
+			.content-bottom {
+				position: relative;
+				margin: 100px auto;
+				width: 416px;
+				height: 416px;
+			}
+
+
+			.content-bottom p {
+				position: absolute;
+				top: 70%;
+				left: 50%;
+				margin-left: -32px;
+				text-align: center;
+			}
+
+			header {}
+
+			.head {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				color: #555555;
+				box-sizing: border-box;
+				padding: 10px 15px;
+				background-color: #fff;
+				width: 100%;
+				border-bottom: 3px solid #eff1f4;
+				height: 60px;
+
+
+			}
+
+			.header-right span {
+				margin-right: 25px;
+			}
+
+			nav {
+				box-sizing: border-box;
+				padding: 20px;
+				font-size: 20px;
+				font-weight: 700;
+				color: #555555;
+				background-color: #fff;
+			}
+
+			section {
+				margin: 50px auto;
+				width: 95%;
+				height: 81%;
+				background-color: #fff;
+				overflow: hidden;
+				box-sizing: border-box;
+				padding: 30px;
+			}
+
+			.content-top {
+
+				padding: 20px 15px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+
+			.content-top span:nth-child(1) {
+				font-weight: 600;
+				font-size: 20px;
+			}
+
+			.content-top-right input {
+				padding: 4px 30px;
+				border: 1px solid #ccc;
+				margin-right: 10px;
+				outline: none;
+				transition: all .5s;
+				height: 32px;
+				width: 224px;
+				display: inline-block;
+			}
+
+			.content-top-right input:focus {
+				border: 1px solid #178CF9;
+			}
+
+
+
+			.content-top-right button {
+				width: 104px;
+				height: 32px;
+				color: #fff;
+				background-color: #178CF9;
+				border: 1px solid transparent;
+				outline: 0;
+				font-weight: 700;
+				cursor: pointer;
+			}
+
+			.content-middle {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				background-color: #edf1f3;
+				border-bottom: 1px solid #e8e8e8;
+				padding: 20px 25px;
+			}
+
+			.content-top-right input {
+				background: url("./img/nav_search.png") no-repeat;
+				background-position: 2px center;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="head">
+				<span>hello</span>
+				<div class="header-right">
+					<span>帮助中心</span>
+					<span>dadahh</span>
+				</div>
+			</div>
+		</header>
+		<nav>比赛打榜</nav>
+		<section>
+			<div class="content-top">
+				<span>实例列表</span>
+				<div class="content-top-right">
+					<span></span>
+					<input type="text" placeholder="搜索实列名称">
+					<button type="button">新建实列</button>
+				</div>
+			</div>
+			<div class="content-middle">
+				<span>实例名称</span>
+				<span>挂载数据</span>
+				<span>状态</span>
+				<span>资源套餐</span>
+				<span>最近启动时间</span>
+				<span>服务时长</span>
+				<span>操作</span>
+			</div>
+			<div class="content-bottom">
+				<img src="img/emptys@2x.80509cc1.png" alt="">
+				<p>暂无内容</p>
+			</div>
+
+		</section>
+	</body>
+</html>

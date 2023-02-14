@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+body,
+html {
+	/* height: 100%; */
+}
+
+.content-box {
+
+	height: 100%;
+	display: flex;
+}
+
+
+.login-box {
+	position: absolute;
+	bottom: 25%;
+	right: 15%;
+	width: 368px;
+	border-radius: 15px;
+	box-shadow: 0 0 20px rgb(230, 238, 240);
+}
+
+
+.login-box img {
+	display: block;
+	margin: 10px auto 52px;
+}
+
+.dl {
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.dl a:hover {
+	color: #178CF9;
+}
+
+.dl a {
+	float: left;
+	width: 50%;
+	text-align: center;
+	line-height: 45px;
+	font-size: 18px;
+}
+
+.current {
+	border-bottom: 2px solid #178CF9;
+}
+
+form {
+	margin: 0 10px 10px;
+}
+
+form .p1 {
+	width: 100%;
+	margin-top: 50px;
+}
+
+form p {
+	margin: 20px 0;
+}
+
+.double {
+	width: 100%;
+	position: relative;
+	height: 41px;
+}
+
+.yanzhen {
+	width: 60%;
+	float: left;
+}
+
+.double .yanzhen input {
+	padding-left: 36px;
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
+.huoqu {
+	width: 35%;
+	float: right;
+}
+
+.huoqu input {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	background: #CBCFD2 !important;
+	color: #fff;
+
+}
+
+
+[type="checkbox"] {
+	width: 16px;
+	height: 16px;
+
+	position: absolute;
+	top: 2px;
+}
+
+.p4 {
+
+	position: relative;
+}
+
+.p4 span {
+	color: #fff;
+	margin-left: 24px;
+}
+
+input {
+	border: 1px solid #CBCFD2;
+	border-radius: 4px;
+}
+
+.p1 input {
+	height: 40px;
+	width: 99%;
+	padding-left: 36px;
+}
+
+[type="submit"] {
+	width: 100%;
+	height: 40px;
+	background-color: #178CF9;
+	color: #fff;
+}
+
+[type="submit"]:hover {
+	background-color: steelblue;
+
+}
+
+
+form p:nth-child(5) {
+	display: flex;
+	justify-content: space-between;
+}
+
+.special a {
+	color: #178CF9;
+}
+
+.p1 {
+	position: relative;
+}
+
+.icon::before {
+	font-family: 'icomoon';
+	content: "\e958";
+}
+
+.icon {
+	/* 添加绝对定位后元素浮动不占位置,并且变成了行内块元素可以设置长宽 */
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 18px;
+	display: flex;
+	align-items: center;
+}
+
+.icon-2::before {
+	font-family: 'icomoon';
+	content: "\e98f";
+}
+
+.icon-2 {
+	/* 添加绝对定位后元素浮动不占位置,并且变成了行内块元素可以设置长宽 */
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 18px;
+	display: flex;
+	align-items: center;
+}
+
+.zh {
+	color: #fff;
+}

@@ -1,0 +1,399 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.top-nav .inner:nth-of-type(1) img {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 35%;
+}
+
+.top-nav .inner:nth-of-type(6) img {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 35%;
+}
+
+.data2 {
+	font-size: 48px;
+	font-weight: 500;
+	color: #121f2c;
+	line-height: 67px;
+	text-align: left;
+}
+
+[type="submit"] {
+	margin-top: 60px;
+	width: 232px;
+	height: 40px;
+	background-color: #0082ff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+.tex {
+	position: relative;
+}
+
+
+section {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+section .inner2 {
+	width: 1200px;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #178CF9;
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 32px;
+}
+
+.inner1-top {
+	margin: 30px 0 40px 0;
+}
+
+.inner1-top p {
+	color: #606972;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.inner1-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inner1-nav-left {
+	width: 40px;
+	height: 160px;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 24px;
+	font-weight: 500;
+	background: linear-gradient(180deg, #65c3ff, #0082ff);
+	display: flex;
+	align-items: center;
+	/* 让内容在盒子内在垂直方向上居中 */
+	box-sizing: border-box;
+	padding: 0 12px;
+}
+
+.inner1-nav-middle {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.inner1-nav-middle-top {
+	flex: 1;
+}
+
+.inner1-nav-middle-top-small {
+	display: flex;
+	align-items: flex-end;
+	padding-left: 124px;
+}
+
+.line {
+	height: 1px;
+	background: #2c79fb;
+	width: calc(100% - 251px);
+}
+
+.inner1-nav-middle-bottom .inner1-nav-middle-top-small {
+	align-items: flex-start;
+	padding-left: 244px;
+}
+
+.content-container {
+	width: 252px;
+	display: flex;
+}
+
+.boder-line {
+	width: 24px;
+	border: 1px solid #2c79fb;
+	border-radius: 0 0 24px 0;
+	border-top: none;
+	border-left: none;
+}
+
+.inner1-nav-middle-bottom .boder-line {
+	width: 24px;
+	border: 1px solid #2c79fb;
+	border-radius: 0 24px 0 0;
+	border-bottom: none;
+	border-left: none;
+}
+
+.inner1-nav-middle-top-small ul {
+
+	position: relative;
+	top: -12px;
+	display: flex;
+	flex-direction: column;
+}
+
+.inner1-nav-middle-bottom .inner1-nav-middle-top-small ul {
+	position: relative;
+	top: 12px;
+}
+
+ul>li {
+	display: flex;
+	align-items: center;
+	padding: 4px 0;
+}
+
+.inner1-nav-middle-top .inner1-nav-middle-top-small ul li:first-child a {
+	font-size: 18px;
+	font-weight: 500;
+	color: #121f2c;
+}
+
+.inner1-nav-middle-bottom .inner1-nav-middle-top-small ul li:last-child a {
+	font-size: 18px;
+	font-weight: 500;
+	color: #121f2c;
+}
+
+ul>li:first-child>span {
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul>li:first-child>span span {
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	border: 1px solid #2c79fb;
+	background-color: #2c79fb;
+}
+
+.inner1-nav-middle-bottom ul>li:first-child>span {
+	width: 9px;
+	height: 9px;
+}
+
+.inner1-nav-middle-bottom ul>li:last-child>span {
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inner1-nav-middle-bottom ul>li:last-child>span span {
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	border: 1px solid #2c79fb;
+	background-color: #2c79fb;
+}
+
+ul>li>span {
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	border: 1px solid #2c79fb;
+	margin-left: -7px;
+	background-color: #fff;
+}
+
+ul>li>a {
+	padding: 4px 8px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #0082ff;
+	cursor: pointer;
+
+}
+
+.inner1-nav-middle-top-small ul>li:first-child {
+	font-size: 18px;
+	font-weight: 500;
+	color: #121f2c;
+}
+
+.inner1-nav-middle-bottom {
+	flex: 1;
+}
+
+.inner1-nav-right {
+	color: #606927;
+	display: flex;
+	align-items: center;
+	padding: 0 9px;
+	box-sizing: border-box;
+	width: 32px;
+	height: 116px;
+	cursor: pointer;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 18px;
+}
+
+section:nth-of-type(2) {
+	margin: 100px 0;
+}
+
+.inner2 {
+	width: 1200px;
+	height: 100%;
+}
+
+.inner2>h1 {
+	text-align: center;
+	margin-bottom: 8px;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.inner2>h2 {
+	margin-bottom: 48px;
+	text-align: center;
+	font-size: 16px;
+	color: #606972;
+}
+
+.setion {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.setion-left {
+	width: 590px;
+	height: 322px;
+	background: linear-gradient(270deg, #2e97f9, #0082ff);
+	border-radius: 2px;
+	padding: 84px 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.lyh {
+	color: #fff;
+}
+
+.lyh .more {
+	width: 128px;
+	height: 40px;
+	line-height: 40px;
+	color: #0082ff;
+	text-align: center;
+	margin-top: 18px;
+	background-color: #fff;
+}
+
+.setion-left .lyh h2 {
+	font-size: 24px;
+}
+
+.setion-left .lyh h2:nth-child(2) {
+	font-size: 18px;
+	line-height: 45px;
+}
+
+.setion-left img {
+	width: 239px;
+	height: 215px;
+}
+
+.setion-middle img {
+	width: 284px;
+	height: 215px;
+}
+
+.setion-right img {
+	width: 284px;
+	height: 215px;
+}
+
+.setion-middle,
+.setion-right {
+	width: 285px;
+	height: 322px;
+}
+
+.item-tex {
+	width: 100%;
+	height: 106px;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 20px 24px 24px;
+	position: relative;
+}
+
+.item-tex p {
+	font-size: 18px;
+	margin-bottom: 8px;
+	font-family: PingFang-SC-Regular, PingFang-SC;
+	position: absolute;
+	transition: all .5s;
+	height: 25px;
+	bottom: 55px;
+	/* 有了这一句 hover变化后高度才能向上变大 */
+	width: 285px;
+	margin-left: -24px;
+	box-sizing: border-box;
+	padding-left: 24px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.item-tex p span {
+	margin-top: 8px;
+	font-size: 12px;
+	color: #a0a6ab;
+	display: block;
+	width: 210px;
+}
+
+/* 当div元素设置了margin:0 0 0 auto，当hover的时候设置width增大，那么宽度会默认从右向左增加。 */
+.setion-middle:hover .item-tex p {
+	height: 220px;
+}
+
+.setion-right:hover .item-tex p {
+	height: 220px;
+}
+
+.item-tex-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item-tex-bottom span {
+	color: #a0a6ab;
+	line-height: 20px;
+	margin-top: 40px;
+}

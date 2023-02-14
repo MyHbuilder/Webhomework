@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('fonts/icomoon.eot?ogs4nr');
+	src: url('fonts/icomoon.eot?ogs4nr#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?ogs4nr') format('truetype'),
+		url('fonts/icomoon.woff?ogs4nr') format('woff'),
+		url('fonts/icomoon.svg?ogs4nr#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+body {
+	color: rgb(96, 105, 114);
+}
+
+.qz2 li {
+	height: 160px;
+}
+
+.qz2 li {
+	border-bottom: 1px solid #e0e1e1;
+	padding: 0 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.qz2-left p:nth-child(2) {
+	margin: 16px 0;
+}
+
+.qz2-left p:nth-child(3) span:nth-child(1) {
+	margin-right: 14px;
+}
+
+.qz2-left p:nth-child(3) span:nth-child(2) {
+	margin-left: 24px;
+}
+
+ul {
+	list-style: none;
+}
+
+.qz2-left h3 {
+	color: #333 !important;
+}
+
+.qz2 li:hover {
+	background-color: #ccc;
+}
+
+.qz2 li:last-child {
+	border-bottom: 0;
+}
+
+.qz2 li:last-child:hover {
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.qz2 li:hover h3 {
+	color: #178cf9 !important;
+}
+
+.qz2-right span {
+	color: #178cf9;
+	overflow: hidden;
+}
+
+
+
+.qz2 li:last-child p span:nth-child(2) {
+	margin-left: 15px;
+}
+
+.qz2 li:last-child p {
+	color: #333 !important;
+}
+
+.qz2 li:last-child p span:nth-child(3) {
+	display: inline-block;
+	width: 50px;
+	height: 32px;
+	line-height: 31px;
+	margin: 0 5px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-sizing: border-box;
+	padding-left: 3px;
+	cursor: pointer;
+}
+
+.qz2 li:last-child a {
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.qz2 li:last-child a:nth-child(2) {
+	margin: 0 8px;
+	border: 1px solid #178cf9;
+}
+
+.qz2 li:last-child a:nth-child(1)::before {
+	color: #178cf9;
+	content: "";
+	margin-left: 10px;
+	display: inline-block;
+	padding: 6px;
+	border-right: 1px solid #178cf9;
+	border-bottom: 1px solid #178cf9;
+	transform: rotate(135deg);
+
+}
+
+.qz2 li:last-child a:nth-child(3)::before {
+	color: #178cf9;
+	content: "";
+	margin-left: 10px;
+	display: inline-block;
+	padding: 6px;
+	border-right: 1px solid #178cf9;
+	border-bottom: 1px solid #178cf9;
+	transform: rotate(-45deg);
+	margin-left: -2px;
+}

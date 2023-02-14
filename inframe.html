@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/index.css" type="text/css">
+		<title></title>
+		<style>
+			@font-face {
+				font-family: 'icomoon';
+				src: url('fonts/icomoon.eot?ogs4nr');
+				src: url('fonts/icomoon.eot?ogs4nr#iefix') format('embedded-opentype'),
+					url('fonts/icomoon.ttf?ogs4nr') format('truetype'),
+					url('fonts/icomoon.woff?ogs4nr') format('woff'),
+					url('fonts/icomoon.svg?ogs4nr#icomoon') format('svg');
+				font-weight: normal;
+				font-style: normal;
+				font-display: block;
+			}
+
+			p {
+				margin: 20px 0;
+			}
+
+			.p1 {
+				margin-top: 50px;
+			}
+
+			body {
+				background-color: rgba(255, 255, 255, 0);
+			}
+
+			input {
+				outline: none;
+				transition: all .5s;
+				border: 1px solid #ccc;
+			}
+
+			input:focus {
+				border: 1px solid #178CF9;
+				box-shadow: 0 0 3px #178CF9;
+			}
+		</style>
+	</head>
+	<body>
+
+		<p class="p1">
+			<span class="icon"></span>
+			<input type="text" placeholder="手机号">
+		</p>
+		<div class="double">
+			<span class="icon-2"></span>
+			<div class="yanzhen"><input type="text" placeholder="短信验证码"></div>
+			<div class="huoqu"><input type="button" value="获取验证码"></div>
+		</div>
+		<p class="p4"><input type="checkbox"><span style="color: #ccc">下次自动登录</span></p>
+		<p><input type="submit" value="登录" class="dls"></p>
+		<p>
+			<span class="special"><a href="jiazai.html" target="_parent">返回首页</a></span>
+			<span class="zh">没有账号？<span class="special"><a href="zhuche.html" target="_parent">立即注册</a></span> </span>
+		</p>
+		<script>
+			window.addEventListener('load', function() {
+				var dls = document.querySelector('.dls');
+				dls.addEventListener('click', function() {
+					window.parent.location.href = "./jiazai.html";
+				})
+			})
+		</script>
+	</body>
+</html>
